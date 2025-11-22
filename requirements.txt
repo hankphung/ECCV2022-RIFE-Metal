@@ -1,7 +1,21 @@
-numpy>=1.16, <=1.23.5
-tqdm>=4.35.0 
-sk-video>=1.1.10 
-torch>=1.6.0 
-opencv-python>=4.1.2 
-moviepy>=1.0.3 
-torchvision>=0.7.0
+# RIFE Requirements for Apple Silicon (M1/M2/M3) with MPS GPU Support
+
+# Core ML Framework - PyTorch 2.0+ required for MPS support
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Video Processing
+opencv-python>=4.5.0
+moviepy>=1.0.3
+
+# Utilities
+numpy>=1.21.0
+tqdm>=4.64.0
+sk-video>=1.1.10
+
+# Model Download
+gdown>=4.6.0
+
+# Note: For Apple Silicon Macs, PyTorch will automatically use Metal Performance Shaders (MPS)
+# for GPU acceleration when available. No additional setup required.

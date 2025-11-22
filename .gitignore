@@ -10,5 +10,6 @@ train_log/*
 test/
 .idea/
 *.npz
-
+venv
 *.zip
+.DS_Store

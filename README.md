@@ -15,7 +15,7 @@ This repository has been modified to support **Metal Performance Shaders (MPS)**
 
 ```bash
 # Clone and setup
-git clone https://github.com/hzwer/RIFE.git
+git clone https://github.com/hankphung/ECCV2022-RIFE-Metal.git
 cd RIFE
 python3 -m venv venv
 source venv/bin/activate
